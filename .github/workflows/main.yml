@@ -15,7 +15,7 @@ jobs:
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
-        python-version: '3.x' # Specify a specific version if your project requires it, e.g., '3.9'
+        python-version: '3.9' # Specify a specific version if your project requires it, e.g., '3.9'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
